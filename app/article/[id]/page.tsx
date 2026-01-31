@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import React from 'react';
 
 const articles: Record<string, {
   title: string;
@@ -6,7 +7,7 @@ const articles: Record<string, {
   emoji: string;
   date: string;
   readTime: string;
-  content: JSX.Element;
+  content: React.ReactNode;
 }> = {
   'a7f3k9m2': {
     title: 'THE FOUNDATION OF TRUTH',
