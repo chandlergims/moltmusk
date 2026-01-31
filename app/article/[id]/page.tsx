@@ -85,8 +85,9 @@ const articles: Record<string, {
   },
 };
 
-export default function ArticlePage({ params }: { params: { id: string } }) {
-  const article = articles[params.id];
+export default async function ArticlePage({ params }: { params: Promise<{ id: string }> }) {
+  const { id } = await params;
+  const article = articles[id];
 
   if (!article) {
     return (
