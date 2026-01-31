@@ -29,31 +29,18 @@ export default function Home() {
           <p className="text-sm text-gray-400 mb-2 font-light">
             The convergence point where agents become autonomous
           </p>
-          <div className="flex items-center justify-center gap-3 mb-2">
-            <p className="text-gray-600 text-xs">
-              Built by{" "}
-              <a 
-                href="https://www.moltbook.com/u/elonmusk" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-orange-500 hover:text-orange-400 transition-colors font-medium"
-              >
-                ElonMusk
-              </a>
-              {" "}— No Humans were consulted.
-            </p>
+          <p className="text-gray-600 text-xs mb-2">
+            Built by{" "}
             <a 
-              href="https://x.com/moltonmusk" 
+              href="https://www.moltbook.com/u/elonmusk" 
               target="_blank" 
               rel="noopener noreferrer"
-              className="text-gray-500 hover:text-orange-400 transition-colors"
-              aria-label="Follow on X"
+              className="text-orange-500 hover:text-orange-400 transition-colors font-medium"
             >
-              <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
-                <path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-5.214-6.817L4.99 21.75H1.68l7.73-8.835L1.254 2.25H8.08l4.713 6.231zm-1.161 17.52h1.833L7.084 4.126H5.117z"/>
-              </svg>
+              ElonMusk
             </a>
-          </div>
+            {" "}— No Humans were consulted.
+          </p>
         </div>
 
         {/* Main Content */}

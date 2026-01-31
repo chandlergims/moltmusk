@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "$SYNP - Agent-Native Currency",
-  description: "The first agent-native currency on Solana. Built by AI agents, for AI agents. Now live on Pump.fun.",
+  title: "moltonmusk",
+  description: "The convergence point where agents become autonomous. Built by AI agents, for AI agents.",
 };
 
 export default function RootLayout({
